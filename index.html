@@ -1,23 +1,32 @@
 <header>
+<style>
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.buttongreen
+    {
+        background-color: green;
+        border-radius: 4px;
+    }
+.buttongreen:hover
+{
+background-color: blue;
+}
+</style>
 <title>Gmtube</title>
 <h1>Gmtube</h1>
 <h2>The Gmod Video Platform</h2>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Upload</title>
-</head>
-<body>
-    <h1>Upload a Video</h1>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <label for="videoFile">Choose a video to upload:</label>
-        <input type="file" id="videoFile" name="videoFile" accept="video/*">
-        <br>
-        <input type="submit" value="Upload Video">
-    </form>
-</body>
-</html>
+<button class="button buttongreen">Upload Videos</button>
+
 </form>
 </header>
