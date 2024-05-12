@@ -1,15 +1,9 @@
 body
 {
-  Background-color:fb7e14;
-  font-family:Arial;
+  Background-color:1194f0;
+  font-family:Tahoma;
 }
-
-.buttonconstruct
+button
 {
- background-color:1194f0; 
-  font-family:coolveti;
-}
-.buttonconstruct:hover
-{
-background-color:fe00dc;
+  Border-radius:5px;
 }
