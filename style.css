@@ -7,3 +7,11 @@ button
 {
   Border-radius:5px;
 }
+.download
+{
+ background-color:fe00dc; 
+}
+.download:hover
+{
+  background-color:e500fe;
+}
